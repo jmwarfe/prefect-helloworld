@@ -1,14 +1,14 @@
 from prefect import flow, task, get_run_logger
 
 @task
-def hello():
+def helloworld():
     return("Hello from Prefect.")
     
 
 @flow(name="Hello World")
-def runner(source_bucket, destination_bucket):
+def runner():
     logger = get_run_logger()
-    logger.info(hello)
+    logger.info(helloworld())
 
 if __name__ == "__main__":
     runner()

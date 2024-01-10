@@ -35,7 +35,7 @@ deployments:
   version: null
   tags: []
   description: null
-  entrypoint: helloworld.py:runner
+  entrypoint: prefect-hello:runner
   parameters: {}
   work_pool:
     name: fnl-worker

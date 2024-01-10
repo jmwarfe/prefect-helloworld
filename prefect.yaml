@@ -31,7 +31,7 @@ pull:
 
 # the deployments section allows you to provide configuration for deploying flows
 deployments:
-- name: s3-copier
+- name: prefect-helloworld
   version: null
   tags: []
   description: null
@@ -42,3 +42,5 @@ deployments:
     work_queue_name: null
     job_variables: {}
   schedule: null
+
+# End file

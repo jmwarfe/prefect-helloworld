@@ -3,7 +3,7 @@
 # control along with your flow code.
 
 # Generic metadata about this project
-name: prefect-helloworld
+name: prefect-hello
 prefect-version: 2.13.0
 
 # build section allows you to manage and build docker images
@@ -31,7 +31,7 @@ pull:
 
 # the deployments section allows you to provide configuration for deploying flows
 deployments:
-- name: prefect-helloworld
+- name: prefect-hello
   version: null
   tags: []
   description: null

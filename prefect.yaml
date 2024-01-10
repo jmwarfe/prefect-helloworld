@@ -21,7 +21,7 @@ push: null
 pull:
     - prefect.projects.steps.git_clone_project:
         id: clone-step
-        repository: https://github.com/jmwarfe/prefect-hello.git
+        repository: https://github.com/jmwarfe/prefect-helloworld.git
         branch: main
     - prefect.projects.steps.pip_install_requirements:
         requirements_file: requirements.txt
